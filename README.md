@@ -14,7 +14,7 @@
 I build **production-grade AI agent systems** using LangGraph, FastMCP, and modern LLM tooling. I focus on multi-agent architectures, RAG pipelines, and deploying real working AI applications — not just notebooks.
 
 - 🤖 Specialising in **Multi-Agent Systems**, **RAG**, and **LLM Engineering**
-- 🌍 Based in Delhi, India · Open to relocation to **Germany** · Chancenkarte Eligible
+- 🌍 Based in Delhi, India · Open to relocation to **Germany / Europe** with visa sponsorship
 - ⚡ Shipped a complex multi-agent system in **4 weeks** · Learned FastMCP in **2 days**
 - 📬 Reach me at **arwazrozi@gmail.com**
 
@@ -53,7 +53,7 @@ Multi-agent blog generation system — give it a topic, it researches the web vi
 ---
 
 ### 🔧 [FastMCP Python REPL Server](https://github.com/arbaz-builds/fastmcp-python-repl-server)
-Secure, sandboxed Python REPL server implementing the Model Context Protocol (MCP) — compatible with OpenAI and Anthropic Claude. Features auto-generated tool schemas and strict input validation.
+Python REPL server implementing the Model Context Protocol (MCP) — compatible with OpenAI and Anthropic Claude. Exposes a single `run_python` tool for LLM-driven code execution.
 
 `FastMCP` `MCP` `OpenAI` `Anthropic` `Python`
 
@@ -80,7 +80,7 @@ LSTM-based language model built from scratch in PyTorch — full pipeline: token
 I am actively seeking a **Junior AI Engineer** or **LLM Engineer** role in **Germany / Europe**.
 
 - ✅ Available for immediate relocation
-- ✅ Eligible for Germany's Chancenkarte (Opportunity Card)
+- ✅ Visa sponsorship required
 - ✅ English B2+ proficiency
 - ✅ Open to on-site, hybrid, or remote
 
