@@ -4,7 +4,7 @@
 <p align="center">
   <a href="mailto:arwazrozi@gmail.com"><img src="https://img.shields.io/badge/Email-arwazrozi@gmail.com-blue?style=flat&logo=gmail" /></a>
   <a href="https://ubiquitous-belekoy-329bc7.netlify.app"><img src="https://img.shields.io/badge/Portfolio-Visit-green?style=flat&logo=netlify" /></a>
-  <a href="https://langgraph-blog-agent-1.onrender.com/docs"><img src="https://img.shields.io/badge/Live%20Demo-Blog%20Agent-red?style=flat&logo=render" /></a>
+  <a href="https://langgraph-blog-writer-pl4n.onrender.com/docs"><img src="https://img.shields.io/badge/Live%20Demo-Blog%20Agent-red?style=flat&logo=render" /></a>
 </p>
 
 ---
@@ -75,7 +75,7 @@ Features: research routing · parallel section generation · evidence-grounded w
 
 `LangGraph` `NVIDIA API` `Tavily` `FastAPI` `Pydantic` `Docker` `GitHub Actions` `Render`
 
-[GitHub](https://github.com/arbaz-builds/langgraph-blog-writer) · [Live demo](https://langgraph-blog-agent-1.onrender.com/docs)
+[GitHub](https://github.com/arbaz-builds/langgraph-blog-writer) · [Live demo](https://langgraph-blog-writer-pl4n.onrender.com/docs)
 
 ---
 
