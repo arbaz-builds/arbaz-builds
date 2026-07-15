@@ -22,7 +22,7 @@ I enjoy building end-to-end AI systems where deployment, testing, and observabil
 
 ## Highlights
 
-- Built and deployed 4 AI projects with public GitHub repositories, REST APIs, and live demos where applicable
+- Built and deployed four production-ready AI projects with public GitHub repositories, REST APIs, and live demos where applicable
 - Designed multi-agent orchestration systems using LangGraph, including parallel task fan-out (`Send()` API)
 - Built a custom FastMCP server exposing remote Python execution as an MCP tool
 - Deployed FastAPI backends with PostgreSQL-backed persistent memory
@@ -44,6 +44,9 @@ FastAPI · PostgreSQL
 **Vector databases**
 Pinecone · Qdrant
 
+**Testing**
+pytest
+
 **DevOps & deployment**
 Git · Docker · GitHub Actions · Render · Railway
 
@@ -57,6 +60,8 @@ PyTorch
 ### LangGraph Multi-Agent System
 A LangGraph-based chatbot that routes each query to the right capability — document retrieval, live web search (Tavily), or remote Python execution via a custom MCP server — with PostgreSQL-backed multi-turn memory, served over FastAPI.
 
+Features: multi-agent routing · RAG · web search · MCP tool execution · PostgreSQL memory
+
 `LangGraph` `FastMCP` `PostgreSQL` `Pinecone` `LangSmith` `FastAPI`
 
 [GitHub](https://github.com/arbaz-builds/langgraph-multi-agent) · [Documentation](https://github.com/arbaz-builds/langgraph-multi-agent/tree/main/docs)
@@ -65,6 +70,8 @@ A LangGraph-based chatbot that routes each query to the right capability — doc
 
 ### LangGraph Blog Writer
 Multi-agent blog-generation pipeline — give it a topic, it decides whether the topic needs live research, plans a structured outline, then writes every section in parallel using LangGraph's `Send()` fan-out API. Containerized with Docker; tests run automatically in CI on every push.
+
+Features: research routing · parallel section generation · evidence-grounded writing · Docker · CI testing
 
 `LangGraph` `NVIDIA API` `Tavily` `FastAPI` `Pydantic` `Docker` `GitHub Actions` `Render`
 
@@ -75,6 +82,8 @@ Multi-agent blog-generation pipeline — give it a topic, it decides whether the
 ### FastMCP Python REPL Server
 A minimal Model Context Protocol (MCP) server that gives any MCP-compatible AI assistant a live Python REPL as a callable tool — compatible with Claude, GPT, and any client speaking `streamable-http`.
 
+Features: MCP tool exposure · persistent REPL session · streamable-HTTP transport
+
 `FastMCP` `MCP` `OpenAI` `Anthropic` `Python`
 
 [GitHub](https://github.com/arbaz-builds/fastmcp-python-repl-server)
@@ -83,6 +92,8 @@ A minimal Model Context Protocol (MCP) server that gives any MCP-compatible AI a
 
 ### LSTM Next-Word Prediction
 An LSTM language model built from scratch in PyTorch — tokenization (GPT-4's `tiktoken`), embeddings, sequence modeling, and a CLI-configurable training loop.
+
+Features: custom LSTM architecture · GPT-4-compatible tokenizer · CLI-configurable training
 
 `PyTorch` `LSTM` `Deep Learning` `NLP`
 
