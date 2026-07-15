@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Mohammad Arbaz 👋</h1>
+<h1 align="center">Hi, I'm Mohammad Arbaz</h1>
 <h3 align="center">AI / LLM Engineer · Multi-Agent Systems · RAG · FastMCP</h3>
 
 <p align="center">
@@ -9,18 +9,18 @@
 
 ---
 
-## 🚀 About Me
+## About me
 
-I build **production-grade AI agent systems** using LangGraph, FastMCP, and modern LLM tooling. I focus on multi-agent architectures, RAG pipelines, and deploying real working AI applications — not just notebooks.
+I build multi-agent AI systems using LangGraph, FastMCP, and modern LLM tooling — focused on shipping working applications, not just notebooks.
 
-- 🤖 Specialising in **Multi-Agent Systems**, **RAG**, and **LLM Engineering**
-- 🌍 Based in Delhi, India · Open to relocation to **Germany / Europe** with visa sponsorship
-- ⚡ Shipped a complex multi-agent system in **4 weeks** · Learned FastMCP in **2 days**
-- 📬 Reach me at **arwazrozi@gmail.com**
+- Working on multi-agent architectures, RAG pipelines, and LLM tool-use systems
+- Based in Delhi, India · open to relocating to **Germany / Europe** with visa sponsorship
+- Shipped a multi-agent system in 4 weeks · learned FastMCP in 2 days
+- Reach me at **arwazrozi@gmail.com**
 
 ---
 
-## 🛠️ Tech Stack
+## Tech stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat&logo=langchain&logoColor=white)
@@ -36,37 +36,37 @@ I build **production-grade AI agent systems** using LangGraph, FastMCP, and mode
 
 ---
 
-## 🏗️ Featured Projects
+## Featured projects
 
-### 🤖 [LangGraph Multi-Agent System](https://github.com/arbaz-builds/langgraph-multi-agent)
-Production-grade multi-agent chatbot with intelligent query routing across RAG, real-time web search (Apify), and sandboxed Python execution via FastMCP. Features persistent PostgreSQL memory and full LangSmith observability.
+### [LangGraph Multi-Agent System](https://github.com/arbaz-builds/langgraph-multi-agent)
+A LangGraph-based chatbot that routes each query to the right capability — document retrieval, live web search (Tavily), or sandboxed Python execution via a custom MCP server — with PostgreSQL-backed multi-turn memory, served over FastAPI.
 
-`LangGraph` `FastMCP` `PostgreSQL` `Pinecone` `LangSmith` `RAG` `FastAPI`
+`LangGraph` `FastMCP` `PostgreSQL` `Pinecone` `LangSmith` `FastAPI`
 
 ---
 
-### ✍️ [LangGraph Blog Writer](https://github.com/arbaz-builds/langgraph-blog-writer) · [🚀 Live Demo](https://langgraph-blog-agent-1.onrender.com/docs)
-Multi-agent blog generation system — give it a topic, it researches the web via Tavily, plans a structured outline, and writes complete sections in parallel using LangGraph's Send() API and NVIDIA LLMs.
+### [LangGraph Blog Writer](https://github.com/arbaz-builds/langgraph-blog-writer) · [Live demo](https://langgraph-blog-agent-1.onrender.com/docs)
+Multi-agent blog-generation pipeline — give it a topic, it decides whether the topic needs live research, plans a structured outline, then writes every section in parallel using LangGraph's `Send()` fan-out API.
 
 `LangGraph` `NVIDIA API` `Tavily` `FastAPI` `Pydantic` `Render`
 
 ---
 
-### 🔧 [FastMCP Python REPL Server](https://github.com/arbaz-builds/fastmcp-python-repl-server)
-Python REPL server implementing the Model Context Protocol (MCP) — compatible with OpenAI and Anthropic Claude. Exposes a single `run_python` tool for LLM-driven code execution.
+### [FastMCP Python REPL Server](https://github.com/arbaz-builds/fastmcp-python-repl-server)
+A minimal Model Context Protocol (MCP) server that gives any MCP-compatible AI assistant a live Python REPL as a callable tool — compatible with Claude, GPT, and any client speaking `streamable-http`.
 
 `FastMCP` `MCP` `OpenAI` `Anthropic` `Python`
 
 ---
 
-### 🧠 [LSTM Next-Word Prediction](https://github.com/arbaz-builds/LSTM-prediction-next-word-)
-LSTM-based language model built from scratch in PyTorch — full pipeline: tokenisation, embeddings, sequence modelling, and training loop.
+### [LSTM Next-Word Prediction](https://github.com/arbaz-builds/LSTM-prediction-next-word-)
+An LSTM language model built from scratch in PyTorch — tokenization (GPT-4's `tiktoken`), embeddings, sequence modeling, and a CLI-configurable training loop.
 
 `PyTorch` `LSTM` `Deep Learning` `NLP`
 
 ---
 
-## 📊 GitHub Stats
+## GitHub stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=arbaz-builds&show_icons=true&theme=dark&hide_border=true" width="48%" />
@@ -75,19 +75,18 @@ LSTM-based language model built from scratch in PyTorch — full pipeline: token
 
 ---
 
-## 🌍 Looking For
+## Looking for
 
-I am actively seeking a **Junior AI Engineer** or **LLM Engineer** role in **Germany / Europe**.
+I'm actively seeking a **Junior AI Engineer** or **LLM Engineer** role in **Germany / Europe**.
 
-- ✅ Available for immediate relocation
-- ✅ Visa sponsorship required
-- ✅ English B2+ proficiency
-- ✅ Open to on-site, hybrid, or remote
+- Available for relocation, visa sponsorship required
+- English B2+ proficiency
+- Open to on-site, hybrid, or remote
 
-📬 **arwazrozi@gmail.com**
+**arwazrozi@gmail.com**
 
 ---
 
 <p align="center">
-  <i>Building AI systems that actually work in production.</i>
+  <i>Building AI systems that work end to end, not just in notebooks.</i>
 </p>
