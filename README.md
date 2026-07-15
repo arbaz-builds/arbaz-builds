@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Mohammad Arbaz</h1>
-<h3 align="center">AI / LLM Engineer · Multi-Agent Systems · RAG · FastMCP</h3>
+<h3 align="center">AI / LLM Engineer | Multi-Agent Systems | LangGraph | RAG | MCP | FastAPI | Python</h3>
 
 <p align="center">
   <a href="mailto:arwazrozi@gmail.com"><img src="https://img.shields.io/badge/Email-arwazrozi@gmail.com-blue?style=flat&logo=gmail" /></a>
@@ -11,28 +11,44 @@
 
 ## About me
 
-I build multi-agent AI systems using LangGraph, FastMCP, and modern LLM tooling — focused on shipping working applications, not just notebooks.
+I build production-ready AI applications using LangGraph, FastAPI, MCP, and modern LLM frameworks. My focus is on multi-agent systems, retrieval-augmented generation, tool-calling agents, and scalable AI backends.
 
-- Working on multi-agent architectures, RAG pipelines, and LLM tool-use systems
+Currently building end-to-end AI systems with deployment and observability as first-class concerns, not an afterthought.
+
 - Based in Delhi, India · open to relocating to **Germany / Europe** with visa sponsorship
-- Shipped a multi-agent system in 4 weeks · learned FastMCP in 2 days
 - Reach me at **arwazrozi@gmail.com**
+
+---
+
+## Highlights
+
+- Built and deployed 4 end-to-end AI projects, each with a public repo and live demo where applicable
+- Designed multi-agent orchestration systems using LangGraph, including parallel task fan-out (`Send()` API)
+- Built a custom FastMCP server exposing sandboxed Python execution as an MCP tool
+- Deployed multiple FastAPI backends with PostgreSQL-backed persistent memory
+- Containerized a production service with Docker
 
 ---
 
 ## Tech stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat&logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![FastMCP](https://img.shields.io/badge/FastMCP-FF6B35?style=flat)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-Claude-blue?style=flat)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+**Languages**
+Python
+
+**AI / LLM**
+LangGraph · LangChain · LlamaIndex · OpenAI · Anthropic · NVIDIA API
+
+**Backend**
+FastAPI · PostgreSQL
+
+**Vector databases**
+Pinecone · Qdrant
+
+**Deployment**
+Docker · Render · Railway
+
+**ML**
+PyTorch
 
 ---
 
@@ -48,7 +64,7 @@ A LangGraph-based chatbot that routes each query to the right capability — doc
 ### [LangGraph Blog Writer](https://github.com/arbaz-builds/langgraph-blog-writer) · [Live demo](https://langgraph-blog-agent-1.onrender.com/docs)
 Multi-agent blog-generation pipeline — give it a topic, it decides whether the topic needs live research, plans a structured outline, then writes every section in parallel using LangGraph's `Send()` fan-out API.
 
-`LangGraph` `NVIDIA API` `Tavily` `FastAPI` `Pydantic` `Render`
+`LangGraph` `NVIDIA API` `Tavily` `FastAPI` `Pydantic` `Docker` `Render`
 
 ---
 
@@ -63,6 +79,15 @@ A minimal Model Context Protocol (MCP) server that gives any MCP-compatible AI a
 An LSTM language model built from scratch in PyTorch — tokenization (GPT-4's `tiktoken`), embeddings, sequence modeling, and a CLI-configurable training loop.
 
 `PyTorch` `LSTM` `Deep Learning` `NLP`
+
+---
+
+## Currently learning
+
+- CI/CD with GitHub Actions
+- Kubernetes
+- AWS / GCP fundamentals
+- Advanced MCP patterns (multi-server orchestration, auth)
 
 ---
 
