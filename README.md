@@ -64,7 +64,7 @@ Features: multi-agent routing · RAG · web search · MCP tool execution · Post
 
 `LangGraph` `FastMCP` `PostgreSQL` `Pinecone` `LangSmith` `FastAPI`
 
-[GitHub](https://github.com/arbaz-builds/langgraph-multi-agent) · [Documentation](https://github.com/arbaz-builds/langgraph-multi-agent/tree/main/docs)
+[GitHub](https://github.com/arbaz-builds/langgraph-multi-agent) · [Live API](https://langgraph-multi-agent-ee8b.onrender.com/health) · [Documentation](https://github.com/arbaz-builds/langgraph-multi-agent/tree/main/docs)
 
 ---
 
