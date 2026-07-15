@@ -22,11 +22,11 @@ Currently building end-to-end AI systems with deployment and observability as fi
 
 ## Highlights
 
-- Built and deployed 4 end-to-end AI projects, each with a public repo and live demo where applicable
+- Built and deployed 4 AI projects with public GitHub repositories, REST APIs, and live demos where applicable
 - Designed multi-agent orchestration systems using LangGraph, including parallel task fan-out (`Send()` API)
-- Built a custom FastMCP server exposing sandboxed Python execution as an MCP tool
-- Deployed multiple FastAPI backends with PostgreSQL-backed persistent memory
-- Containerized a production service with Docker
+- Built a custom FastMCP server exposing remote Python execution as an MCP tool
+- Deployed FastAPI backends with PostgreSQL-backed persistent memory
+- Containerized and deployed an AI service with Docker, with automated tests running in CI on every push (GitHub Actions)
 
 ---
 
@@ -44,8 +44,8 @@ FastAPI · PostgreSQL
 **Vector databases**
 Pinecone · Qdrant
 
-**Deployment**
-Docker · Render · Railway
+**Tools & deployment**
+Git · Docker · GitHub Actions · Render · Railway
 
 **ML**
 PyTorch
@@ -54,37 +54,44 @@ PyTorch
 
 ## Featured projects
 
-### [LangGraph Multi-Agent System](https://github.com/arbaz-builds/langgraph-multi-agent)
-A LangGraph-based chatbot that routes each query to the right capability — document retrieval, live web search (Tavily), or sandboxed Python execution via a custom MCP server — with PostgreSQL-backed multi-turn memory, served over FastAPI.
+### LangGraph Multi-Agent System
+A LangGraph-based chatbot that routes each query to the right capability — document retrieval, live web search (Tavily), or remote Python execution via a custom MCP server — with PostgreSQL-backed multi-turn memory, served over FastAPI.
 
 `LangGraph` `FastMCP` `PostgreSQL` `Pinecone` `LangSmith` `FastAPI`
 
----
-
-### [LangGraph Blog Writer](https://github.com/arbaz-builds/langgraph-blog-writer) · [Live demo](https://langgraph-blog-agent-1.onrender.com/docs)
-Multi-agent blog-generation pipeline — give it a topic, it decides whether the topic needs live research, plans a structured outline, then writes every section in parallel using LangGraph's `Send()` fan-out API.
-
-`LangGraph` `NVIDIA API` `Tavily` `FastAPI` `Pydantic` `Docker` `Render`
+[GitHub](https://github.com/arbaz-builds/langgraph-multi-agent) · [Documentation](https://github.com/arbaz-builds/langgraph-multi-agent/tree/main/docs)
 
 ---
 
-### [FastMCP Python REPL Server](https://github.com/arbaz-builds/fastmcp-python-repl-server)
+### LangGraph Blog Writer
+Multi-agent blog-generation pipeline — give it a topic, it decides whether the topic needs live research, plans a structured outline, then writes every section in parallel using LangGraph's `Send()` fan-out API. Containerized with Docker; tests run automatically in CI on every push.
+
+`LangGraph` `NVIDIA API` `Tavily` `FastAPI` `Pydantic` `Docker` `GitHub Actions` `Render`
+
+[GitHub](https://github.com/arbaz-builds/langgraph-blog-writer) · [Live demo](https://langgraph-blog-agent-1.onrender.com/docs)
+
+---
+
+### FastMCP Python REPL Server
 A minimal Model Context Protocol (MCP) server that gives any MCP-compatible AI assistant a live Python REPL as a callable tool — compatible with Claude, GPT, and any client speaking `streamable-http`.
 
 `FastMCP` `MCP` `OpenAI` `Anthropic` `Python`
 
+[GitHub](https://github.com/arbaz-builds/fastmcp-python-repl-server)
+
 ---
 
-### [LSTM Next-Word Prediction](https://github.com/arbaz-builds/LSTM-prediction-next-word-)
+### LSTM Next-Word Prediction
 An LSTM language model built from scratch in PyTorch — tokenization (GPT-4's `tiktoken`), embeddings, sequence modeling, and a CLI-configurable training loop.
 
 `PyTorch` `LSTM` `Deep Learning` `NLP`
+
+[GitHub](https://github.com/arbaz-builds/LSTM-prediction-next-word-)
 
 ---
 
 ## Currently learning
 
-- CI/CD with GitHub Actions
 - Kubernetes
 - AWS / GCP fundamentals
 - Advanced MCP patterns (multi-server orchestration, auth)
@@ -102,9 +109,8 @@ An LSTM language model built from scratch in PyTorch — tokenization (GPT-4's `
 
 ## Looking for
 
-I'm actively seeking a **Junior AI Engineer** or **LLM Engineer** role in **Germany / Europe**.
+Seeking Junior AI Engineer / LLM Engineer opportunities in Germany and across Europe. Open to relocation and visa sponsorship.
 
-- Available for relocation, visa sponsorship required
 - English B2+ proficiency
 - Open to on-site, hybrid, or remote
 
