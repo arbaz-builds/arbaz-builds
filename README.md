@@ -11,9 +11,9 @@
 
 ## About me
 
-I build production-ready AI applications using LangGraph, FastAPI, MCP, and modern LLM frameworks. My focus is on multi-agent systems, retrieval-augmented generation, tool-calling agents, and scalable AI backends.
+I build production-ready AI applications using LangGraph, FastAPI, MCP, and modern LLM frameworks, with a focus on multi-agent systems, retrieval-augmented generation (RAG), tool-calling agents, and scalable AI backends.
 
-Currently building end-to-end AI systems with deployment and observability as first-class concerns, not an afterthought.
+I enjoy building end-to-end AI systems where deployment, testing, and observability are treated as first-class engineering concerns.
 
 - Based in Delhi, India · open to relocating to **Germany / Europe** with visa sponsorship
 - Reach me at **arwazrozi@gmail.com**
@@ -26,7 +26,7 @@ Currently building end-to-end AI systems with deployment and observability as fi
 - Designed multi-agent orchestration systems using LangGraph, including parallel task fan-out (`Send()` API)
 - Built a custom FastMCP server exposing remote Python execution as an MCP tool
 - Deployed FastAPI backends with PostgreSQL-backed persistent memory
-- Containerized and deployed an AI service with Docker, with automated tests running in CI on every push (GitHub Actions)
+- Containerized AI services with Docker and implemented automated CI pipelines using GitHub Actions
 
 ---
 
@@ -35,7 +35,7 @@ Currently building end-to-end AI systems with deployment and observability as fi
 **Languages**
 Python
 
-**AI / LLM**
+**AI & LLM**
 LangGraph · LangChain · LlamaIndex · OpenAI · Anthropic · NVIDIA API
 
 **Backend**
@@ -44,10 +44,10 @@ FastAPI · PostgreSQL
 **Vector databases**
 Pinecone · Qdrant
 
-**Tools & deployment**
+**DevOps & deployment**
 Git · Docker · GitHub Actions · Render · Railway
 
-**ML**
+**Machine learning**
 PyTorch
 
 ---
@@ -119,5 +119,5 @@ Seeking Junior AI Engineer / LLM Engineer opportunities in Germany and across Eu
 ---
 
 <p align="center">
-  <i>Building AI systems that work end to end, not just in notebooks.</i>
+  <i>Building production-ready AI systems — from idea to deployment.</i>
 </p>
